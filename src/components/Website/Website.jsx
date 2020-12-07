@@ -5,8 +5,13 @@ export default function Website() {
   return (
     <>
       <div className={styles.one}>
-        <img src="" alt="" />
-        <div>Name</div>
+        <div>FERCHAEL</div>
+      </div>
+      <div className={styles.two}>
+        <div>TALIKASIH</div>
+      </div>
+      <div className={styles.three}>
+        <div>MINIPROJECT</div>
       </div>
     </>
   );
