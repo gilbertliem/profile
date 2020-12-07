@@ -1,0 +1,44 @@
+.cover {
+  background-image: url("../Assets/Images/background.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 65rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.headline {
+  position: fixed;
+  text-align: center;
+}
+
+.welcome {
+  font-size: 5rem;
+  font-weight: 800;
+}
+
+.explore {
+  font-size: 3rem;
+  font-weight: 600;
+  padding: 2rem;
+}
+
+.button {
+  color: white;
+  font-size: 2rem;
+  border: 1px solid white;
+  outline: none;
+  background-color: transparent;
+  padding: 1rem;
+  margin: 1rem;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.button:hover {
+  background-color: rgb(3, 17, 94);
+  color: rgb(255, 255, 255);
+  border: none;
+}
