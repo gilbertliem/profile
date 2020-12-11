@@ -1,0 +1,40 @@
+.container {
+  background-color: #ffffff;
+  position: static;
+}
+
+.one {
+  width: 100%;
+  height: 20rem;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../Assets/Images/ferchael.png");
+  background-size: cover;
+}
+
+.two {
+  width: 100%;
+  height: 20rem;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../Assets/Images/talikasih.png");
+  background-size: cover;
+}
+
+.three {
+  width: 100%;
+  height: 20rem;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../Assets/Images/miniproject.jpg");
+  background-size: cover;
+}
+
+/* .ferchael {
+} */
