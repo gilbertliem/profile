@@ -10,7 +10,7 @@
 }
 
 .headline {
-  position: fixed;
+  position: static;
   text-align: center;
 }
 

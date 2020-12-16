@@ -1,5 +1,4 @@
 import React from "react";
-import background from "../Assets/Images/background.jpeg";
 import styles from "./Cover.module.css";
 
 export default function Cover() {
