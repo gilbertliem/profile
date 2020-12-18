@@ -5,73 +5,77 @@
   font-weight: 700;
 }
 
-.one {
+.overlay {
   width: 100%;
   height: 20rem;
-  border-bottom: 2px solid black;
-  border-top: 2px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-size: cover;
+}
+.overlay:hover {
+  background-color: #00000055;
+}
+
+.one,
+.two,
+.three {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.one {
   background-image: url("../Assets/Images/ferchael.png");
   background-size: cover;
 }
+.one:hover {
+  background-attachment: fixed;
+}
 
 .two {
-  width: 100%;
-  height: 20rem;
-  border-bottom: 2px solid black;
-  border-top: 2px solid black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-image: url("../Assets/Images/talikasih.png");
   background-size: cover;
 }
+.two:hover {
+  background-attachment: fixed;
+}
 
 .three {
-  width: 100%;
-  height: 20rem;
-  border-bottom: 2px solid black;
-  border-top: 2px solid black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-image: url("../Assets/Images/miniproject.jpg");
   background-size: cover;
 }
-
-.ferchael {
-  cursor: pointer;
-  padding: 1rem;
-  border-radius: 25px;
-  border: 3px solid black;
-}
-.ferchael:hover {
-  background-color: #5c3d1b81;
-  border: none;
+.three:hover {
+  background-attachment: fixed;
 }
 
-.talikasih {
-  cursor: pointer;
-  padding: 1rem;
-  border-radius: 25px;
-  border: 3px solid black;
-}
-.talikasih:hover {
-  cursor: pointer;
-  background-color: #1d94a8;
-  border: none;
-}
-
+.ferchael,
+.talikasih,
 .miniproject {
   cursor: pointer;
   padding: 1rem;
   border-radius: 25px;
+  text-decoration: none;
+}
+
+.ferchael,
+.talikasih {
+  color: #000000;
+  background-color: #ffffff;
+}
+.ferchael:hover {
   color: #ffffff;
-  border: 3px solid white;
+  background-color: #000000;
+}
+.talikasih:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.miniproject {
+  color: #ffffff;
+  background-color: #000000;
 }
 .miniproject:hover {
-  background-color: #000000;
-  border: none;
+  color: #000000;
+  background-color: #ffffff;
 }

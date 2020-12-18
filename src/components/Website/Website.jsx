@@ -6,13 +6,40 @@ export default function Website() {
     <>
       <div className={styles.container}>
         <div className={styles.one}>
-          <div className={styles.ferchael}>FERCHAEL</div>
+          <div className={styles.overlay}>
+            <a
+              href="https://ferchael.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.ferchael}
+            >
+              FERCHAEL
+            </a>
+          </div>
         </div>
         <div className={styles.two}>
-          <div className={styles.talikasih}>TALIKASIH</div>
+          <div className={styles.overlay}>
+            <a
+              href="https://production-react-talikasih.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.talikasih}
+            >
+              TALIKASIH
+            </a>
+          </div>
         </div>
         <div className={styles.three}>
-          <div className={styles.miniproject}>MINIPROJECT</div>
+          <div className={styles.overlay}>
+            <a
+              href="https://production-teamg.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.miniproject}
+            >
+              MINIPROJECT
+            </a>
+          </div>
         </div>
       </div>
     </>
