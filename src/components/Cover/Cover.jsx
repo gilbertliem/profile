@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Cover.module.css";
+import { Link } from "react-router-dom";
 
 export default function Cover() {
   return (
@@ -12,7 +13,9 @@ export default function Cover() {
             <br />
             Explore this website to know more about his works.
           </div>
-          <button className={styles.button}>About Gilbert</button>
+          <Link to="/about">
+            <button className={styles.button}>About Gilbert</button>
+          </Link>
           <button className={styles.button}>Reach Him Out</button>
         </div>
       </div>
