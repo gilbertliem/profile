@@ -14,18 +14,24 @@ export default function Contact() {
           <div className={styles.left}>
             <div className={styles.reach}>STAY CONNECTED</div>
             <div className={styles.icon}>
-              <a href="https://www.instagram.com/gilbertliem/" target="_blank">
+              <a
+                href="https://www.instagram.com/gilbertliem/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={instagram} alt="Instagram" />
               </a>
               <a
                 href="https://www.linkedin.com/in/gilbert-yohanes-052090119/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <img src={linkedin} alt="LinkedIn" />
               </a>
               <a
                 href="https://www.facebook.com/gilbert.yohanes.9/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <img src={facebook} alt="Facebook" />
               </a>
