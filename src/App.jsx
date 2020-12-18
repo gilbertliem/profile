@@ -1,18 +1,13 @@
 import React from "react";
-import Cover from "../src/components/Cover/Cover";
-import Website from "../src/components/Website/Website";
-import Stack from "../src/components/Stack/Stack";
-import Contact from "../src/components/Contact/Contact";
-import Footer from "../src/components/Footer/Footer";
+// import Home from "./pages/Home";
+// import About from "./pages/About";
+
+// ---------- //
 
 export default function App() {
   return (
     <>
-      <Cover />
-      <Website />
-      <Stack />
-      <Contact />
-      <Footer />
+      <div></div>
     </>
   );
 }
