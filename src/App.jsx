@@ -1,6 +1,7 @@
 import React from "react";
 import Cover from "../src/components/Cover/Cover";
 import Website from "../src/components/Website/Website";
+import Stack from "../src/components/Stack/Stack";
 import Contact from "../src/components/Contact/Contact";
 import Footer from "../src/components/Footer/Footer";
 
@@ -9,6 +10,7 @@ export default function App() {
     <>
       <Cover />
       <Website />
+      <Stack />
       <Contact />
       <Footer />
     </>

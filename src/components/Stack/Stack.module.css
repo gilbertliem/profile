@@ -1,0 +1,31 @@
+.stack {
+  background-image: url("../Assets/Images/contact.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.tech {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  padding: 2rem;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.575);
+  padding: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.stack img {
+  max-width: 7rem;
+  margin: 2rem;
+}
