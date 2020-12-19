@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <>
       <div className={styles.row}>
-        <img src={profile} alt="Profile Picture" className={styles.photo} />
+        <img src={profile} alt="Profile Picture" className={styles.profile} />
         <div className={styles.col}>
           <div className={styles.name}>gilbert yohanes</div>
           <div className={styles.summary}>
