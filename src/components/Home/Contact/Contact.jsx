@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./Contact.module.css";
-import instagram from "../Assets/Icons/instagram.png";
-import linkedin from "../Assets/Icons/linkedin.png";
-import facebook from "../Assets/Icons/facebook.png";
-import call from "../Assets/Icons/call.png";
-import email from "../Assets/Icons/email.png";
+import instagram from "../../Assets/Icons/instagram.png";
+import linkedin from "../../Assets/Icons/linkedin.png";
+import facebook from "../../Assets/Icons/facebook.png";
+import call from "../../Assets/Icons/call.png";
+import email from "../../Assets/Icons/email.png";
 
 export default function Contact() {
   return (
