@@ -26,6 +26,14 @@ const portfolio = [
     role: "frontend developer",
     detail: `A platform for campaign and donation activity. The website itself provides features such as login-logout, create campaign form, donate form, sort type of campaign, search bar, etc.`,
   },
+  // {
+  //   id: 4,
+  //   project: "",
+  //   website: "",
+  //   source: "",
+  //   role: "",
+  //   detail: ``,
+  // },
 ];
 
 const experiences = [
@@ -88,67 +96,54 @@ export default function Experiences() {
   return (
     <>
       <section className={styles.container}>
-        <div>portfolio</div>
-        <div>
-          project name: <strong>miniproject</strong>
-        </div>
-        <div>
-          website link: <span>https://production-teamg.herokuapp.com/</span>
-        </div>
-        <div>
-          source code: <span>https://github.com/gilbertliem/miniproject</span>
-        </div>
-        <div>
-          role: <strong>frontend developer</strong>
-        </div>
-        <div>
-          detail:
-          <div>
-            A website to search for movie details, including movie list,
-            synopsis, review and genre.
-          </div>
-        </div>
-        <div>
-          project name: <strong>ferchael</strong>
-        </div>
-        <div>
-          website link: <span>https://ferchael.herokuapp.com/</span>
-        </div>
-        <div>
-          source code: <span>https://gitlab.com/gilbertliem/ferchael</span>
-        </div>
-        <div>
-          role: <strong>frontend developer</strong>
-        </div>
-        <div>
-          detail:
-          <div>
-            A company profile website, with project portfolio, request form for
-            inquiry, and also linked to social media.
-          </div>
-        </div>
-        <div>
-          project name: <strong>talikasih</strong>
-        </div>
-        <div>
-          website link:
-          <span>https://production-react-talikasih.herokuapp.com/</span>
-        </div>
-        <div>
-          source code: <span>https://github.com/samudraarq/talikasih</span>
-        </div>
-        <div>
-          role: <strong>frontend developer</strong>
-        </div>
-        <div>
-          detail:
-          <div>
-            A platform for campaign and donation activity. The website itself
-            provides features such as login-logout, create campaign form, donate
-            form, sort type of campaign, search bar, etc.
-          </div>
-        </div>
-        <div>experiences</div>
+        <div className={styles.subhead}>portfolio</div>
+        {portfolio.map((porto) => {
+          return (
+            <div className={styles.each}>
+              <div>
+                project name :{" "}
+                <span className={styles.name}>{porto.project}</span>
+              </div>
+              <div>
+                website link : <a href={porto.website}>{porto.website}</a>
+              </div>
+              <div>
+                source code : <a href={porto.source}>{porto.source}</a>
+              </div>
+              <div>
+                role : <span className={styles.role}>{porto.role}</span>
+              </div>
+              <div>
+                detail:
+                <div className={styles.detail}>{porto.detail}</div>
+              </div>
+            </div>
+          );
+        })}
+        <br />
+        <div className={styles.subhead}>experiences</div>
+        {experiences.map((detail) => {
+          return (
+            // <ul>
+            // <li key={detail.id}>
+            <div>
+              <div>{detail.company}</div>
+              <div>
+                {detail.city}, {detail.country}
+              </div>
+              <div>
+                {detail.position} ({detail.period})
+              </div>
+              <div>
+                {detail.description.map((list) => {
+                  return <div>{list}</div>;
+                })}
+              </div>
+            </div>
+            // </li>
+            // </ul>
+          );
+        })}
       </section>
     </>
   );
