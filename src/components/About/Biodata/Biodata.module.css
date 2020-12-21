@@ -3,9 +3,10 @@
 }
 
 .subhead {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
+  margin: 2rem 0;
 }
 
 .detail {
@@ -17,7 +18,7 @@
   font-size: 1.4rem;
   font-weight: 700;
   text-transform: capitalize;
-  margin: 1rem 0 0.2rem 0;
+  margin: 0 0 0.2rem 0;
   text-decoration: underline 2px solid black;
 }
 
@@ -34,4 +35,9 @@
   height: 0.2rem;
   margin: 2rem 0;
   border-radius: 10rem;
+}
+
+.language {
+  font-size: 1.2rem;
+  text-transform: capitalize;
 }

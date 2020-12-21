@@ -55,6 +55,19 @@ export default function Biodata() {
             <li className={styles.list}>Sales & Marketing</li>
           </ul>
         </div>
+        <div className={styles.line}></div>
+        <div className={styles.container}>
+          <div className={styles.subhead}>language</div>
+          <div className={styles.language}>
+            <strong>english</strong> - intermediate
+          </div>
+          <div className={styles.language}>
+            <strong>bahasa indonesia</strong> - native
+          </div>
+          <div className={styles.language}>
+            <strong>mandarin</strong> - beginner
+          </div>
+        </div>
       </aside>
     </>
   );
