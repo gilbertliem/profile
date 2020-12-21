@@ -124,24 +124,21 @@ export default function Experiences() {
         <div className={styles.subhead}>experiences</div>
         {experiences.map((detail) => {
           return (
-            // <ul>
-            // <li key={detail.id}>
-            <div>
-              <div>{detail.company}</div>
-              <div>
+            <div className={styles.each}>
+              <div className={styles.name}>{detail.company}</div>
+              <div className={styles.country}>
                 {detail.city}, {detail.country}
               </div>
-              <div>
-                {detail.position} ({detail.period})
+              <div className={styles.position}>
+                {detail.position}{" "}
+                <span className={styles.period}>({detail.period})</span>
               </div>
               <div>
                 {detail.description.map((list) => {
-                  return <div>{list}</div>;
+                  return <li>{list}</li>;
                 })}
               </div>
             </div>
-            // </li>
-            // </ul>
           );
         })}
       </section>
