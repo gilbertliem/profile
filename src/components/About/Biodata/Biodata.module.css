@@ -22,12 +22,21 @@
   text-decoration: underline 2px solid black;
 }
 
+.col {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
 .education {
   font-size: 1.2rem;
 }
 
 .list {
   font-size: 1.2rem;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
 }
 
 .line {
@@ -40,4 +49,7 @@
 .language {
   font-size: 1.2rem;
   text-transform: capitalize;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  padding: 1rem;
 }
