@@ -20,6 +20,7 @@ export default function Biodata() {
           <div className={styles.contact}>github: </div>
           <div className={styles.detail}>https://github.com/gilbertliem</div>
         </div>
+        <div className={styles.line}></div>
         <div className={styles.container}>
           <div className={styles.subhead}>education</div>
           <div className={styles.name}>Glints Academy</div>
@@ -37,6 +38,7 @@ export default function Biodata() {
             GPA 3.55 / 4.0
           </div>
         </div>
+        <div className={styles.line}></div>
         <div className={styles.container}>
           <div className={styles.subhead}>expertise</div>
           <ul>

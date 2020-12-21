@@ -1,17 +1,11 @@
 .container {
-  padding: 2rem 2rem 0 2rem;
+  line-height: 2.2rem;
 }
 
 .subhead {
   font-size: 1.8rem;
   font-weight: 700;
   text-transform: uppercase;
-  /* border-top: 2px solid black; */
-  padding: 2rem 0 1rem 0;
-}
-
-.each {
-  padding: 2rem;
 }
 
 .detail {
@@ -33,4 +27,11 @@
 
 .list {
   font-size: 1.2rem;
+}
+
+.line {
+  background-color: black;
+  height: 0.2rem;
+  margin: 2rem 0;
+  border-radius: 10rem;
 }

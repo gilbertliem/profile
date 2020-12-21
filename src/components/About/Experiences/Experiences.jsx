@@ -120,7 +120,7 @@ export default function Experiences() {
             </div>
           );
         })}
-        <br />
+        <div className={styles.line}></div>
         <div className={styles.subhead}>experiences</div>
         {experiences.map((detail) => {
           return (
