@@ -1,11 +1,17 @@
 import React from "react";
 import styles from "./Header.module.css";
 import profile from "../../Assets/Images/profile.jpg";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
     <>
       <div className={styles.row}>
+        <div className={styles.home}>
+          <Link to="/" className={styles.link}>
+            <div>{"<"}home</div>
+          </Link>
+        </div>
         <img src={profile} alt="Profile" className={styles.profile} />
         <div className={styles.col}>
           <div className={styles.name}>gilbert yohanes</div>
