@@ -19,21 +19,33 @@ export default function Contact() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={instagram} alt="Instagram" />
+                <img
+                  src={instagram}
+                  alt="Instagram"
+                  className={styles.background}
+                />
               </a>
               <a
                 href="https://www.linkedin.com/in/gilbert-yohanes-052090119/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={linkedin} alt="LinkedIn" />
+                <img
+                  src={linkedin}
+                  alt="LinkedIn"
+                  className={styles.background}
+                />
               </a>
               <a
                 href="https://www.facebook.com/gilbert.yohanes.9/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={facebook} alt="Facebook" />
+                <img
+                  src={facebook}
+                  alt="Facebook"
+                  className={styles.background}
+                />
               </a>
             </div>
           </div>
