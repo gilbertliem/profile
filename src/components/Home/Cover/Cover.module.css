@@ -1,12 +1,12 @@
 .cover {
-  background-image: url("../../Assets/Images/background.jpeg");
+  background-image: url("../../Assets/Images/cover.jpg");
   background-size: cover;
   background-attachment: fixed;
   height: 65rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: black;
 }
 
 .headline {
@@ -26,9 +26,9 @@
 }
 
 .button {
-  color: white;
+  color: black;
   font-size: 2rem;
-  border: 1px solid white;
+  border: 1px solid black;
   outline: none;
   background-color: transparent;
   padding: 1rem;
@@ -38,7 +38,7 @@
 }
 
 .button:hover {
-  background-color: rgb(3, 17, 94);
+  background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
   border: none;
 }

@@ -52,17 +52,16 @@ export default function Contact() {
           <div className={styles.right}>
             <form action="" className={styles.form}>
               <div className={styles.reach}>CONTACT HIM</div>
-              {/* <input type="text" value="" /> */}
               <div className={styles.line}>
                 <img src={call} alt="" />
-                <input type="text" value="+62 817 378 555" disabled="true" />
+                <input type="text" value="+62 817 378 555" disabled={true} />
               </div>
               <div className={styles.line}>
                 <img src={email} alt="" />
                 <input
                   type="text"
                   value="yohanesbert97@gmail.com"
-                  disabled="true"
+                  disabled={true}
                 />
               </div>
             </form>
