@@ -9,7 +9,7 @@ export default function Header() {
       <div className={styles.row}>
         <div className={styles.home}>
           <Link to="/" className={styles.link}>
-            <div>{"<"}home</div>
+            <div>{"< "}home</div>
           </Link>
         </div>
         <img src={profile} alt="Profile" className={styles.profile} />

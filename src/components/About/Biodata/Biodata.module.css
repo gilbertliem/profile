@@ -9,6 +9,10 @@
   margin: 2rem 0;
 }
 
+.contact {
+  width: 2rem;
+}
+
 .detail {
   font-size: 1.2rem;
   font-weight: 700;
@@ -22,11 +26,17 @@
   text-decoration: underline 2px solid black;
 }
 
-.col {
+.col,
+.row {
   background-color: rgba(0, 0, 0, 0.05);
   border-radius: 20px;
   margin-bottom: 1rem;
   padding: 1rem;
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
 }
 
 .education {

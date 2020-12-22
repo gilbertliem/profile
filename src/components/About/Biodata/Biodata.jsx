@@ -1,5 +1,10 @@
 import React from "react";
 import styles from "./Biodata.module.css";
+import call from "../../Assets/Icons/call.png";
+import email from "../../Assets/Icons/email.png";
+import skype from "../../Assets/Icons/skype.svg";
+import linkedin from "../../Assets/Icons/linkedin.png";
+import github from "../../Assets/Icons/github.png";
 
 export default function Biodata() {
   return (
@@ -7,26 +12,26 @@ export default function Biodata() {
       <aside>
         <div className={styles.container}>
           <div className={styles.subhead}>contact</div>
-          <div className={styles.col}>
-            <div className={styles.contact}>phone: </div>
+          <div className={styles.row}>
+            <img src={call} alt="phone" className={styles.contact} />
             <div className={styles.detail}>+ 62 817 378 555</div>
           </div>
-          <div className={styles.col}>
-            <div className={styles.contact}>email: </div>
+          <div className={styles.row}>
+            <img src={email} alt="email" className={styles.contact} />
             <div className={styles.detail}>yohanesbert97@gmail.com</div>
           </div>
-          <div className={styles.col}>
-            <div className={styles.contact}>skype: </div>
+          <div className={styles.row}>
+            <img src={skype} alt="skype" className={styles.contact} />
             <div className={styles.detail}>gilbertliem</div>
           </div>
-          <div className={styles.col}>
-            <div className={styles.contact}>linkedin: </div>
+          <div className={styles.row}>
+            <img src={linkedin} alt="linkedin" className={styles.contact} />
             <div className={styles.detail}>
               https://www.linkedin.com/in/gilbert-yohanes-052090119/
             </div>
           </div>
-          <div className={styles.col}>
-            <div className={styles.contact}>github: </div>
+          <div className={styles.row}>
+            <img src={github} alt="github" className={styles.contact} />
             <div className={styles.detail}>https://github.com/gilbertliem</div>
           </div>
         </div>
