@@ -16,7 +16,7 @@ export default function Cover() {
           <Link to="/about">
             <button className={styles.button}>About Gilbert</button>
           </Link>
-          <button className={styles.button}>Reach Him Out</button>
+          {/* <button className={styles.button}>Reach Him Out</button> */}
         </div>
       </div>
     </>

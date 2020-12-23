@@ -6,6 +6,14 @@ import Contact from "../components/Home/Contact/Contact";
 import Footer from "../components/Footer/Footer";
 
 export default function Home() {
+  // const [displayDownButton, setDisplayDownButton] = useState(false);
+  // const [displayUpButton, setDisplayUpButton] = useState(false);
+  // const [scrollPosition, setScrollPosition] = useState(0);
+
+  // checkScroll=()=>{
+  //   if(scrollPosition>stateref)
+  // }
+
   return (
     <>
       <Cover />
@@ -13,6 +21,7 @@ export default function Home() {
       <Stack />
       <Contact />
       <Footer />
+      {/* {displayUpButton ? <button>Back to top</button> : null} */}
     </>
   );
 }
