@@ -1,5 +1,5 @@
 .cover {
-  background-image: url("../../Assets/Images/cover.jpg");
+  background-image: url("../../../Assets/Images/cover.jpg");
   background-size: cover;
   background-attachment: fixed;
   height: 65rem;

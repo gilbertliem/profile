@@ -25,7 +25,7 @@
 }
 
 .one {
-  background-image: url("../../Assets/Images/ferchael.png");
+  background-image: url("../../../Assets/Images/ferchael.png");
   background-size: cover;
 }
 .one:hover {
@@ -33,7 +33,7 @@
 }
 
 .two {
-  background-image: url("../../Assets/Images/talikasih.png");
+  background-image: url("../../../Assets/Images/talikasih.png");
   background-size: cover;
 }
 .two:hover {
@@ -41,7 +41,7 @@
 }
 
 .three {
-  background-image: url("../../Assets/Images/miniproject.jpg");
+  background-image: url("../../../Assets/Images/miniproject.jpg");
   background-size: cover;
 }
 .three:hover {

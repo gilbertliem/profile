@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./Biodata.module.css";
-import call from "../../Assets/Icons/call.png";
-import email from "../../Assets/Icons/email.png";
-import skype from "../../Assets/Icons/skype.svg";
-import linkedin from "../../Assets/Icons/linkedin.png";
-import github from "../../Assets/Icons/github.png";
+import call from "../../../Assets/Icons/call.png";
+import email from "../../../Assets/Icons/email.png";
+import skype from "../../../Assets/Icons/skype.svg";
+import linkedin from "../../../Assets/Icons/linkedin.png";
+import github from "../../../Assets/Icons/github.png";
 
 export default function Biodata() {
   return (
