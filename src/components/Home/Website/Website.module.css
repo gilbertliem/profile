@@ -22,28 +22,23 @@
 .three {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
+  background-size: cover;
 }
 
 .one {
   background-image: url("../../../Assets/Images/ferchael.png");
-  background-size: cover;
-}
-.one:hover {
-  background-attachment: fixed;
 }
 
 .two {
   background-image: url("../../../Assets/Images/talikasih.png");
-  background-size: cover;
-}
-.two:hover {
-  background-attachment: fixed;
 }
 
 .three {
   background-image: url("../../../Assets/Images/miniproject.jpg");
-  background-size: cover;
 }
+
+.one:hover,
+.two:hover,
 .three:hover {
   background-attachment: fixed;
 }
@@ -62,10 +57,7 @@
   color: #000000;
   background-color: #ffffff;
 }
-.ferchael:hover {
-  color: #ffffff;
-  background-color: #000000;
-}
+.ferchael:hover,
 .talikasih:hover {
   color: #ffffff;
   background-color: #000000;
@@ -78,4 +70,57 @@
 .miniproject:hover {
   color: #000000;
   background-color: #ffffff;
+}
+
+@media all and (max-width: 1024px) {
+  .overlay {
+    height: 15rem;
+  }
+  .container {
+    font-size: 1.4rem;
+  }
+  .ferchael,
+  .talikasih,
+  .miniproject {
+    padding: 0.8rem;
+  }
+}
+@media all and (max-width: 768px) {
+  .overlay {
+    height: 12rem;
+  }
+  .container {
+    font-size: 1.1rem;
+  }
+  .ferchael,
+  .talikasih,
+  .miniproject {
+    padding: 0.6rem;
+  }
+}
+@media all and (max-width: 500px) {
+  .overlay {
+    height: 10rem;
+  }
+  .container {
+    font-size: 0.8rem;
+  }
+  .ferchael,
+  .talikasih,
+  .miniproject {
+    padding: 0.4rem;
+  }
+}
+@media all and (max-width: 350px) {
+  .overlay {
+    height: 8rem;
+  }
+  .container {
+    font-size: 0.5rem;
+  }
+  .ferchael,
+  .talikasih,
+  .miniproject {
+    padding: 0.2rem;
+  }
 }
