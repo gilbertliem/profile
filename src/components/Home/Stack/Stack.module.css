@@ -29,3 +29,42 @@
   max-width: 7rem;
   margin: 2rem;
 }
+
+@media all and (max-width: 1024px) {
+  .tech {
+    font-size: 3rem;
+  }
+  .stack img {
+    max-width: 5rem;
+    margin: 2rem;
+  }
+}
+@media all and (max-width: 768px) {
+  .tech {
+    font-size: 2rem;
+  }
+  .stack img {
+    max-width: 4rem;
+    margin: 2rem;
+  }
+}
+@media all and (max-width: 500px) {
+  .tech {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+  .stack img {
+    max-width: 3rem;
+    margin: 1.5rem;
+  }
+}
+@media all and (max-width: 350px) {
+  .tech {
+    font-size: 1.2rem;
+    padding: 0.6rem;
+  }
+  .stack img {
+    max-width: 1.5rem;
+    margin: 1rem;
+  }
+}
