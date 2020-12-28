@@ -57,3 +57,32 @@
 .country {
   text-transform: capitalize;
 }
+
+.list {
+  text-align: justify;
+  line-height: 2rem;
+  margin: 0.5rem 0;
+}
+
+@media all and (max-width: 1024px) {
+  .container {
+    padding: 0;
+    margin-left: 0;
+    border-left: none;
+  }
+}
+@media all and (max-width: 500px) {
+  .each a {
+    font-size: 1.2rem;
+  }
+}
+@media all and (max-width: 450px) {
+  .each a {
+    font-size: 1rem;
+  }
+}
+@media all and (max-width: 380px) {
+  .each a {
+    font-size: 0.8rem;
+  }
+}

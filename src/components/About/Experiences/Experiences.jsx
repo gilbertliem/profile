@@ -135,7 +135,11 @@ export default function Experiences() {
               </div>
               <div>
                 {detail.description.map((list) => {
-                  return <li>{list}</li>;
+                  return (
+                    <li className={styles.list} key={Math.random() * 100}>
+                      {list}
+                    </li>
+                  );
                 })}
               </div>
             </div>
