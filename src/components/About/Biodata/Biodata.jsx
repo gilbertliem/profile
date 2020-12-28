@@ -18,7 +18,7 @@ export default function Biodata() {
           </div>
           <div className={styles.row}>
             <img src={email} alt="email" className={styles.contact} />
-            <div className={styles.detail}>yohanesbert97@gmail.com</div>
+            <div className={styles.email}>yohanesbert97@gmail.com</div>
           </div>
           <div className={styles.row}>
             <img src={skype} alt="skype" className={styles.contact} />
@@ -26,13 +26,18 @@ export default function Biodata() {
           </div>
           <div className={styles.row}>
             <img src={linkedin} alt="linkedin" className={styles.contact} />
-            <div className={styles.detail}>
+            <a
+              href="https://www.linkedin.com/in/gilbert-yohanes-052090119/"
+              className={styles.linkedin}
+            >
               https://www.linkedin.com/in/gilbert-yohanes-052090119/
-            </div>
+            </a>
           </div>
           <div className={styles.row}>
             <img src={github} alt="github" className={styles.contact} />
-            <div className={styles.detail}>https://github.com/gilbertliem</div>
+            <a href="https://github.com/gilbertliem" className={styles.github}>
+              https://github.com/gilbertliem
+            </a>
           </div>
         </div>
         <div className={styles.line}></div>

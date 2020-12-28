@@ -14,9 +14,18 @@
   height: 2rem;
 }
 
-.detail {
+.detail,
+.linkedin,
+.github,
+.email {
   font-size: 1.2rem;
   font-weight: 700;
+}
+
+.linkedin,
+.github {
+  text-decoration: none;
+  color: black;
 }
 
 .name {
@@ -64,4 +73,30 @@
   background-color: rgba(0, 0, 0, 0.05);
   border-radius: 20px;
   padding: 1rem;
+}
+
+@media all and (max-width: 1024px) {
+}
+@media all and (max-width: 768px) {
+}
+@media all and (max-width: 500px) {
+  .linkedin {
+    font-size: 0.9rem;
+  }
+}
+@media all and (max-width: 420px) {
+  .github {
+    font-size: 1rem;
+  }
+}
+@media all and (max-width: 380px) {
+  .linkedin {
+    font-size: 0.7rem;
+  }
+  .github {
+    font-size: 0.8rem;
+  }
+  .email {
+    font-size: 0.8rem;
+  }
 }
