@@ -134,9 +134,9 @@ export default function Experiences() {
                 <span className={styles.period}>({detail.period})</span>
               </div>
               <div>
-                {detail.description.map((list) => {
+                {detail.description.map((list, id) => {
                   return (
-                    <li className={styles.list} key={Math.random() * 100}>
+                    <li className={styles.list} key={id}>
                       {list}
                     </li>
                   );
