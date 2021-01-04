@@ -74,6 +74,7 @@ export default function Biodata() {
             <li>Redux</li>
             <li>NPM</li>
             <li>API</li>
+            <li>Figma</li>
             <li>Microsoft Office</li>
             <li>Adobe</li>
             <li>Sales & Marketing</li>
