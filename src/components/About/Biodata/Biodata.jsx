@@ -68,7 +68,7 @@ export default function Biodata() {
           <ul className={styles.list}>
             <li>Javascript</li>
             <li>HTML</li>
-            <li>CSS</li>
+            <li>SCSS</li>
             <li>GIT, Heroku</li>
             <li>React JS</li>
             <li>Redux</li>
