@@ -85,4 +85,7 @@
   }
 }
 @media all and (max-width: 380px) {
+  .profile {
+    border: 3px solid black;
+  }
 }
