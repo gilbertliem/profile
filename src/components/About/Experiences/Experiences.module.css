@@ -83,6 +83,6 @@
 }
 @media all and (max-width: 380px) {
   .each a {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
