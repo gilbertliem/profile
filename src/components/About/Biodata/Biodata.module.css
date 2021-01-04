@@ -91,13 +91,10 @@
   }
 }
 @media all and (max-width: 380px) {
-  /* .linkedin {
-    font-size: 0.7rem;
-  }
-  .github {
+  .linkedin {
     font-size: 0.8rem;
   }
   .email {
-    font-size: 0.8rem;
-  } */
+    font-size: 0.9rem;
+  }
 }
